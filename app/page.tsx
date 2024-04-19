@@ -74,7 +74,7 @@ export default function Home() {
           </div>
 
           <div id="content" ref={contentRef} className="flex flex-col gap-5 w-full bg-black bg-opacity-90 text-white">
-            <div className="container flex flex-col px-4 mx-auto h-screen items-center justify-center pt-20">
+            <div className="container flex flex-col px-4 mx-auto md:h-screen items-center justify-center pt-20">
               <div className="flex flex-wrap -m-8">
                 <div className="w-full md:w-1/2 lg:w-1/3 p-8">
                   <div className="xl:pt-12">
@@ -177,7 +177,13 @@ export default function Home() {
             </div>
 
             <div className="relative container mx-auto px-4">
-              <img className="hidden md:block absolute top-0 right-0 animate-spinStar z-10" src="https://static.shuffle.dev/components/preview/ef7897b6-1cd6-4a34-b77d-214943c1b450/casper-assets/services/blink-star.png" alt="" />
+              <Image
+                className="hidden md:block absolute top-0 right-0 animate-spinStar z-10"
+                src="https://static.shuffle.dev/components/preview/ef7897b6-1cd6-4a34-b77d-214943c1b450/casper-assets/services/blink-star.png"
+                alt=""
+                width={1000}
+                height={1000} />
+
               <div className="absolute top-0 right-0 -mr-52 -mt-64 w-186 h-186 bg-gradient-to-t from-purple-600 via-darkBlue-900 rounded-full filter blur-4xl"></div>
               <div className="relative max-w-lg lg:max-w-4xl mx-auto lg:mx-0 mb-32">
                 <h2 className="font-heading text-4xl xs:text-5xl sm:text-6xl lg:text-7xl font-medium text-white tracking-tight mb-6">Our Services</h2>
@@ -198,8 +204,13 @@ export default function Home() {
                     </div>
                     <div className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
                       <div className="relative flex items-center">
-                        <img className="hidden md:block lg:hidden xl:block absolute top-0 left-0 xl:-mt-14 ml-8 w-32 opacity-0 group-hover:opacity-100 transition duration-300" src="https://static.shuffle.dev/components/preview/ef7897b6-1cd6-4a34-b77d-214943c1b450/casper-assets/services/axe.png" alt="" />
-                        <p className="max-w-md ml-auto text-right text-white tracking-tight leading-snug">By understanding your visitors' needs, our chat assistant creates a unique experience that keeps them coming back for more unique process.</p>
+                        <Image
+                          className="hidden md:block lg:hidden xl:block absolute top-0 left-0 xl:-mt-14 ml-8 w-32 opacity-0 group-hover:opacity-100 transition duration-300"
+                          src="https://static.shuffle.dev/components/preview/ef7897b6-1cd6-4a34-b77d-214943c1b450/casper-assets/services/axe.png"
+                          alt=""
+                          height={1000}
+                          width={1000} />
+                        <p className="max-w-md ml-auto text-right text-white tracking-tight leading-snug">By understanding your visitors&apos; needs, our chat assistant creates a unique experience that keeps them coming back for more unique process.</p>
                       </div>
                     </div>
                     <div className="w-full lg:w-2/12 px-4 text-right">
@@ -225,7 +236,12 @@ export default function Home() {
                     </div>
                     <div className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
                       <div className="relative flex items-center">
-                        <img className="hidden xl:block absolute top-0 left-0 -mt-14 ml-8 w-32 opacity-0 group-hover:opacity-100 transition duration-300" src="https://static.shuffle.dev/components/preview/ef7897b6-1cd6-4a34-b77d-214943c1b450/casper-assets/services/box-items.png" alt="" />
+                        <Image
+                          className="hidden xl:block absolute top-0 left-0 -mt-14 ml-8 w-32 opacity-0 group-hover:opacity-100 transition duration-300"
+                          src="https://static.shuffle.dev/components/preview/ef7897b6-1cd6-4a34-b77d-214943c1b450/casper-assets/services/box-items.png"
+                          alt=""
+                          width={1000}
+                          height={1000} />
                         <p className="max-w-md ml-auto text-right text-white tracking-tight leading-snug">Our chat assistant is available round the clock, providing instant responses and support, even when your team is offline. Say goodbye to missed inquiries</p>
                       </div>
                     </div>
@@ -252,7 +268,12 @@ export default function Home() {
                     </div>
                     <div className="w-full lg:w-6/12 px-4 mb-8 lg:mb-0">
                       <div className="relative flex items-center">
-                        <img className="hidden xl:block absolute top-0 left-0 -mt-14 ml-8 w-32 opacity-0 group-hover:opacity-100 transition duration-300" src="https://static.shuffle.dev/components/preview/ef7897b6-1cd6-4a34-b77d-214943c1b450/casper-assets/services/bubble-robot.png" alt="" />
+                        <Image
+                          className="hidden xl:block absolute top-0 left-0 -mt-14 ml-8 w-32 opacity-0 group-hover:opacity-100 transition duration-300"
+                          src="https://static.shuffle.dev/components/preview/ef7897b6-1cd6-4a34-b77d-214943c1b450/casper-assets/services/bubble-robot.png"
+                          alt=""
+                          width={1000}
+                          height={1000} />
                         <p className="max-w-md ml-auto text-right text-white tracking-tight leading-snug">Our chat assistant is available round the clock, providing instant responses and support, even when your team is offline. Say goodbye to missed inquiries</p>
                       </div>
                     </div>
