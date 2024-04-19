@@ -10,7 +10,7 @@ export const Header = () => {
             <div className="px-5 w-full flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
                 <div className="flex gap-6 md:gap-10">
                     <Link href="/" className="flex items-center space-x-2">
-                        <FrameIcon className="h-6 w-6" />
+                        <FrameIcon className="h-6 w-6 stroke-violet-500" />
                         <span className="inline-block font-bold text-white/60">{site.name}</span>
                     </Link>
 

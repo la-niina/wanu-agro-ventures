@@ -9,9 +9,9 @@ export default function Home() {
         <div className="flex flex-col py-40 h-full items-center justify-center bg-black bg-opacity-10" style={{ backdropFilter: " blur(2px)" }}>
           <div className="container px-4 mx-auto">
             <div className="flex flex-col gap-3 text-center max-w-3xl mx-auto">
-              <h2 className="mb-11 text-4xl sm:text-6xl md:text-7xl font-bold text-center tracking-px-n leading-none text-white/80 md:text-white/60 md:animate-pulse md:animate-infinite">
+              <h3 className="mb-11 text-4xl sm:text-6xl md:text-7xl font-bold text-center tracking-px-n leading-none text-white/80 md:text-white/60 text-wrap md:animate-pulse md:animate-infinite">
                 Its not just a place, it&apos;s an experience like no other.
-              </h2>
+              </h3>
 
               <div className="hidden md:grid grid-cols-2 md:grid-cols-3 gap-3 w-full">
                 <div className="bg-card h-32 rounded-lg col-span-1 animate-bounce">
@@ -28,7 +28,7 @@ export default function Home() {
               </div>
 
               <div className="md:inline-block mt-10">
-                <Button variant="outline" size="icon" className="rounded-full size-12 animate-bounce">
+                <Button variant="ghost" size="icon" className="rounded-full size-12 animate-bounce hover:bg-violet-300">
                   <ArrowDown className="stroke-violet-500"/>
                 </Button>
               </div>
