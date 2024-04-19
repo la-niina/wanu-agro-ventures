@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col py-40 h-full items-center justify-center bg-black bg-opacity-10" style={{ backdropFilter: " blur(2px)" }}>
           <div className="container px-4 mx-auto">
             <div className="flex flex-col gap-3 text-center max-w-3xl mx-auto">
-              <h2 className="mb-11 text-6xl md:text-7xl font-bold text-center tracking-px-n leading-none text-white/60 animate-pulse animate-infinite">
+              <h2 className="mb-11 text-4xl sm:text-6xl md:text-7xl font-bold text-center tracking-px-n leading-none text-white/60 animate-pulse animate-infinite">
                 Its not just a place, it&apos;s an experience like no other.
               </h2>
 
