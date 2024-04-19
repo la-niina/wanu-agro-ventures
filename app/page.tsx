@@ -37,6 +37,10 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="flex flex-col">
+
+      </section>
+
     </section>
   );
 }
