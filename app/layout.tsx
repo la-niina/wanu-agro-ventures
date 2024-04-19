@@ -41,8 +41,8 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Provider attribute="class" defaultTheme="system" enableSystem>
-          <main className="flex h-screen flex-col w-screen">
+        <Provider attribute="class" defaultTheme="system" enableSystem={true}>
+          <main className="relative flex min-h-screen flex-col">
             <Header />
             <div className="flex-1">{children}</div>
             <Toaster />
