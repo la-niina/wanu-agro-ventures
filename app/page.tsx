@@ -74,29 +74,46 @@ export default function Home() {
           </div>
 
           <div id="content" ref={contentRef} className="flex flex-col gap-5 w-full bg-black bg-opacity-90 text-white">
-            <div className="container mx-auto px-4 py-20">
-              <div className="flex flex-col md:flex-row flex-wrap items-center justify-center">
-                <div className="flex items-center">
-                  <div className="inline-flex w-7 h-7 mr-4 justify-center items-center rounded-full bg-gradient-to-br from-yellow-500 via-green-300 to-blue-500 text-sm font-bold">1</div>
-                  <span className="font-bold text-white">Shopping Cart</span>
+            <div className="container flex flex-col px-4 mx-auto h-screen items-center justify-center pt-20">
+              <div className="flex flex-wrap -m-8">
+                <div className="w-full md:w-1/2 lg:w-1/3 p-8">
+                  <div className="xl:pt-12">
+                    <h2 className="mb-7 text-6xl md:text-7xl text-white font-bold tracking-px-n leading-tight">Trusted by over 50,000 startups since 2014.</h2>
+                    <p className="text-white text-opacity-80">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu condimentum purus turpis vitae gravida iaculis id quisque nullam. Rhoncus, adipiscing mattis.</p>
+                  </div>
                 </div>
-                <span className="my-4 md:my-0 md:mx-8 lg:mx-16">
-                  <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.5" d="M10.6667 1.16669L16.5 7.00002M16.5 7.00002L10.6667 12.8334M16.5 7.00002L1.5 7.00002" stroke="#84878A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  </svg>
-                </span>
-                <div className="flex items-center">
-                  <div className="inline-flex w-7 h-7 mr-4 justify-center items-center rounded-full bg-blueGray-800 text-sm font-bold text-white">2</div>
-                  <span className="font-bold text-white">Payment & Delivery Options</span>
+                <div className="w-full md:w-1/2 lg:w-1/3 p-8">
+                  <div className="flex flex-wrap justify-center">
+                    <div className="relative inline-block rounded-3xl overflow-hidden shadow-3xl transform hover:-translate-y-16 transition ease-in-out duration-1000">
+                      <img src="https://shuffle.dev/flaro-assets/images/features/woman.jpg" alt="" />
+                      <div className="absolute bottom-0 left-0 bg-white bg-opacity-30 backdrop-blur-xl py-8 px-9" style={{ backdropFilter: "blur(10px)" }}>
+                        <p className="mb-3 font-sans inline-block px-3.5 py-1.5 text-xs text-white font-semibold bg-red-500 uppercase tracking-px rounded-full">Live</p>
+                        <h3 className="mb-3 text-xl font-bold font-heading">Give an amazing on-board experience of your product</h3>
+                        <p className="text-sm text-gray-600 font-semibold">4096 people are joining</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <span className="my-4 md:my-0 md:mx-8 lg:mx-16">
-                  <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path opacity="0.5" d="M10.6667 1.16669L16.5 7.00002M16.5 7.00002L10.6667 12.8334M16.5 7.00002L1.5 7.00002" stroke="#84878A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  </svg>
-                </span>
-                <div className="flex items-center">
-                  <div className="inline-flex w-7 h-7 mr-4 justify-center items-center rounded-full bg-blueGray-800 text-sm font-bold text-white">3</div>
-                  <span className="font-bold text-white">Order Received</span>
+                <div className="w-full md:w-1/2 lg:w-1/3 p-8">
+                  <div className="flex flex-wrap h-full xl:pb-12">
+                    <div className="flex flex-wrap self-end -m-10">
+                      <div className="w-full p-10">
+                        <div className="md:max-w-sm">
+                          <h3 className="mb-5 text-2xl text-white font-bold leading-snug">Unlimited Meetings</h3>
+                          <p className="text-white text-opacity-70 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        </div>
+                      </div>
+                      <div className="w-full px-10">
+                        <div className="h-px bg-indigo-500"></div>
+                      </div>
+                      <div className="w-full p-10">
+                        <div className="md:max-w-sm">
+                          <h3 className="mb-5 text-2xl text-white font-bold leading-snug">Live Broadcast</h3>
+                          <p className="text-white text-opacity-70 font-medium leading-relaxed">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
