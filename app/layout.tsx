@@ -13,6 +13,11 @@ import { site } from "@/config/site";
 export const metadata: Metadata = {
   title: site.name,
   description: site.description,
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export const viewport: Viewport = {
@@ -22,7 +27,6 @@ export const viewport: Viewport = {
   userScalable: false,
   interactiveWidget: 'resizes-visual',
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
 }
@@ -41,8 +45,8 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Provider attribute="class" defaultTheme="system" enableSystem={true}>
-          <main className="relative flex min-h-screen flex-col">
+        <Provider attribute="class" defaultTheme="dark" enableSystem={false}>
+          <main className="relative flex min-h-screen flex-col w-screen">
             <Header />
             <div className="flex-1">{children}</div>
             <Toaster />

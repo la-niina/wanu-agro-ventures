@@ -13,7 +13,7 @@ export function Theme() {
             variant="ghost"
             size="icon"
             className="rounded-full"
-            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+            onClick={() => setTheme(theme === "dark" ? "dark" : "dark")}
         >
             <Sun className="h-[1.5rem] w-[1.3rem] dark:hidden stroke-violet-500" />
             <Moon className="hidden h-5 w-5 dark:block stroke-violet-500" />

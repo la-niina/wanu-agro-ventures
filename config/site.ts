@@ -11,18 +11,23 @@ export const site = {
             disabled: false
         },
         {
-            title: "Products",
+            title: "Produces and Products",
             href: "/",
+            disabled: false
+        },
+        {
+            title: "Herbiary (Encyclopedia of herbs)",
+            href: "/herbiary",
             disabled: false
         },
         {
             title: "Blogs",
-            href: "/",
+            href: "/blog",
             disabled: false
         },
         {
             title: "About",
-            href: "/",
+            href: "/about-us",
             disabled: false
         },
     ],
